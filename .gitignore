@@ -1,0 +1,11 @@
+node_modules
+dist
+*.log*
+.nuxt
+.nitro
+.cache
+.output
+.env
+.eslintcache
+yarn.lock
+yarn-error.log

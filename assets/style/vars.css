@@ -1,0 +1,140 @@
+:root {
+  --nt-c-white: #ffffff;
+  --nt-c-white-soft: #f9f9f9;
+  --nt-c-white-mute: #f1f1f1;
+
+  --nt-c-black: #1a1a1a;
+  --nt-c-black-pure: #000000;
+  --nt-c-black-soft: #242424;
+  --nt-c-black-mute: #2f2f2f;
+
+  --nt-c-gray: #8e8e8e;
+  --nt-c-gray-light-1: #aeaeae;
+  --nt-c-gray-light-2: #c7c7c7;
+  --nt-c-gray-light-3: #d1d1d1;
+  --nt-c-gray-light-4: #e5e5e5;
+  --nt-c-gray-light-5: #f2f2f2;
+  --nt-c-gray-dark-1: #636363;
+  --nt-c-gray-dark-2: #484848;
+  --nt-c-gray-dark-3: #3a3a3a;
+  --nt-c-gray-dark-4: #282828;
+  --nt-c-gray-dark-5: #202020;
+
+  --nt-c-divider-light-1: rgba(60, 60, 60, 0.29);
+  --nt-c-divider-light-2: rgba(60, 60, 60, 0.12);
+  --nt-c-divider-dark-1: rgba(84, 84, 84, 0.65);
+  --nt-c-divider-dark-2: rgba(84, 84, 84, 0.48);
+
+  --nt-c-text-light-1: var(--nt-c-indigo);
+  --nt-c-text-light-2: rgba(60, 60, 60, 0.7);
+  --nt-c-text-light-3: rgba(60, 60, 60, 0.33);
+  --nt-c-text-light-4: rgba(60, 60, 60, 0.18);
+
+  --nt-c-text-dark-1: rgba(255, 255, 255, 0.87);
+  --nt-c-text-dark-2: rgba(235, 235, 235, 0.6);
+  --nt-c-text-dark-3: rgba(235, 235, 235, 0.38);
+  --nt-c-text-dark-4: rgba(235, 235, 235, 0.18);
+
+  --nt-c-indigo: #213547;
+  --nt-c-indigo-soft: #476582;
+  --nt-c-indigo-light: #aac8e4;
+  --nt-c-indigo-lighter: #c9def1;
+  --nt-c-indigo-dark: #1d2f3f;
+  --nt-c-indigo-darker: #14212e;
+
+  --nt-c-green: #42b883;
+  --nt-c-green-light: #42d392;
+  --nt-c-green-lighter: #35eb9a;
+  --nt-c-green-dark: #33a06f;
+  --nt-c-green-darker: #155f3e;
+  --nt-c-green-dimm-1: rgba(66, 184, 131, 0.5);
+  --nt-c-green-dimm-2: rgba(66, 184, 131, 0.25);
+  --nt-c-green-dimm-3: rgba(66, 184, 131, 0.05);
+
+  --nt-c-yellow: #ffc517;
+  --nt-c-yellow-light: #fcd253;
+  --nt-c-yellow-lighter: #fcfc7c;
+  --nt-c-yellow-dark: #e0ad15;
+  --nt-c-yellow-darker: #ad850e;
+  --nt-c-yellow-dimm-1: rgba(255, 197, 23, 0.5);
+  --nt-c-yellow-dimm-2: rgba(255, 197, 23, 0.25);
+  --nt-c-yellow-dimm-3: rgba(255, 197, 23, 0.05);
+
+  --nt-c-red: #ed3c50;
+  --nt-c-red-light: #f54e82;
+  --nt-c-red-lighter: #fd1d7c;
+  --nt-c-red-dark: #cd2d3f;
+  --nt-c-red-darker: #ab2131;
+  --nt-c-red-dimm-1: rgba(237, 60, 80, 0.5);
+  --nt-c-red-dimm-2: rgba(237, 60, 80, 0.25);
+  --nt-c-red-dimm-3: rgba(237, 60, 80, 0.05);
+}
+
+/**
+ * Typography
+ * -------------------------------------------------------------------------- */
+
+:root {
+  --nt-font-family-base: 'Inter var experimental', 'Inter var', ui-sans-serif,
+    system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
+    'Helvetica Neue', Helvetica, Arial, 'Noto Sans', sans-serif,
+    'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+  --nt-font-family-mono: ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Monaco,
+    Consolas, 'Liberation Mono', 'Courier New', monospace;
+}
+
+/**
+ * Shadows
+ * -------------------------------------------------------------------------- */
+
+:root {
+  --nt-shadow-1: 0 1px 2px rgba(0, 0, 0, 0.04), 0 1px 2px rgba(0, 0, 0, 0.06);
+  --nt-shadow-2: 0 3px 12px rgba(0, 0, 0, 0.07), 0 1px 4px rgba(0, 0, 0, 0.07);
+  --nt-shadow-3: 0 12px 32px rgba(0, 0, 0, 0.1), 0 2px 6px rgba(0, 0, 0, 0.08);
+  --nt-shadow-4: 0 14px 44px rgba(0, 0, 0, 0.12), 0 3px 9px rgba(0, 0, 0, 0.12);
+  --nt-shadow-5: 0 18px 56px rgba(0, 0, 0, 0.16), 0 4px 12px rgba(0, 0, 0, 0.16);
+}
+
+/**
+ * Z-indexes
+ * -------------------------------------------------------------------------- */
+
+:root {
+  --nt-z-index-local-header: 10;
+  --nt-z-index-header: 20;
+  --nt-z-index-backdrop: 30;
+  --nt-z-index-sidebar: 40;
+  --nt-z-index-footer: 50;
+}
+
+/**
+ * Layouts
+ * -------------------------------------------------------------------------- */
+
+:root {
+  --nt-layout-max-width: 1440px;
+}
+
+/**
+ * Component: header
+ * -------------------------------------------------------------------------- */
+
+:root {
+  --nt-header-height: var(--nt-header-height-mobile);
+  --nt-header-height-mobile: 56px;
+  --nt-header-height-desktop: 120px;
+}
+
+@media (min-width: 960px) {
+  :root {
+    --nt-header-height: var(--nt-header-height-desktop);
+  }
+}
+
+/**
+ * Component: Sidebar
+ * -------------------------------------------------------------------------- */
+
+:root {
+  --vp-sidebar-width: 272px;
+}
